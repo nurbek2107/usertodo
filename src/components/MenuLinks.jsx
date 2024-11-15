@@ -7,7 +7,7 @@ function MenuLinks() {
     isPending,
     error,
   } = useFetch(
-    "https://run.mocky.io/v3/502d28ba-b486-48b3-a19c-372248c8bb46"
+    "https://json-api.uz/api/project/Frontend%20Quiz/quizzes"
   );
 
   console.log(isPending, error);
